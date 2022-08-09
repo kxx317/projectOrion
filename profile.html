@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Chung's Photography Portfolio">
+    <meta name="keywords"
+          content="Alex Chung, Photography, Portfolio, photography portfolio, brisbane photographer, personal portfolio">
+    <meta name="author" content="Ken Xie">
+    <title>Alex C. Photography | Portfolio</title>
+    <!--  <link rel="stylesheet" type="text/css" href="https://ui-kit.co/figma2html/dist/layout.css?v=2">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:900,400,700">
+    <!--	<link rel='stylesheet' href='https://ui-kit.co/figma2html/dist/codepen.css?v=1'>-->
+    <link rel="stylesheet" href="css/landing_copy.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          id="bootstrap-css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a8698697b0.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/management.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+</head>
+
+<body>
+
+
+<!--Navigation-->
+<nav class="shadow navbar navbar-expand-md navbar-light bg-light fixed-top" id="navD">
+    <a class="navbar-brand" href="landing.html">
+        <img src="img/logo.svg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapseNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="landing.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio_management.html">Portfolio Manage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="profile.html">Account</a>
+            </li>
+<!--            <button class="btn btn-outline-dark">Log out</button>-->
+                <a class="nav-link btn btn-outline-dark" href="landing.html">Log out</a>
+
+        </ul>
+    </div>
+</nav>
+<!--End of navigation-->
+
+
+<!--profile-->
+<section id="profile" style="padding-top: 10%">
+    <div class="row text-center">
+        <div class="col-md-10" id="profile-wrapper">
+            <div class="row offset">
+                <div class="col-md-6 text-right">Username:</div>
+                <div class="col-md-6">
+                    <input type="text" id="usernameField" readonly>
+                </div>
+            </div>
+            <div class="row offset">
+                <div class="col-md-6 text-right">Password:</div>
+                <div class="col-md-6">
+                    <input  type="password" id="passwordField" readonly>
+                </div>
+            </div>
+            <button class="btn btn-outline-dark" id="editBtn">Edit Login Details</button>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <footer class="d-flex-column text-center">
+        <hr class="mt-0">
+        <!--Social buttons-->
+        <div class="text-center">
+            <h4>Social Media Links</h4>
+            <br>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Facebook">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Linkedin">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Twitter">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Youtube">
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--End of Social buttons-->
+        <hr class="mb-0">
+        <!--Copyright-->
+        <div class="py-3 text-center">
+            Copyright
+            <script>document.write(new Date().getFullYear())</script>
+            | All rights reserved
+        </div>
+        <!--End of Copyright-->
+    </footer>
+</section>
+<!-- ./Footer -->
+</body>
+</html>

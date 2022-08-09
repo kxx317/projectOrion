@@ -1,0 +1,669 @@
+
+/*container*/
+.container {
+	background: rgb(255, 255, 255);
+	width: 100%;
+	height: 100%;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+/* Home */
+
+#n24_0 {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background: rgb(255, 255, 255);
+}
+ 
+	/* Navigation D */
+	#navD {
+		width: 90%;
+		height: 100px;
+		overflow: hidden;
+
+	}
+ 
+		/* Rectangle 5 */
+		#n24_30 {
+			background: rgb(239, 239, 240);
+			width: 1440px;
+			height: 80px;
+		}
+ 
+ 
+			/* Alex Chung Photography | */
+			#n24_21 {
+				font-family: Comfortaa;
+				font-size: 28px;
+				font-weight: 400;
+				letter-spacing: 0.28px;
+				color: rgb(0, 0, 0);
+				vertical-align: middle;
+				text-align: center;
+				justify-content: center;
+				align-items: center;
+				line-height: 32.8125px;
+				left: 4.72222%;
+				right: 67.5%;
+				top: 27.5%;
+				bottom: 28.75%;
+			}
+ 
+ 
+				/* Union */
+				#n24_23 {
+					left: 1.11112%;
+					right: 96.4583%;
+					top: 27.5%;
+					bottom: 28.75%;
+				}
+ 
+				/* Union */
+				#n24_26 {
+					left: 1.11112%;
+					right: 96.4583%;
+					top: 27.5%;
+					bottom: 28.75%;
+				}
+ 
+		/* navBtn */
+		#n29_10 {
+			width: 630px;
+			height: 80px;
+			overflow: hidden;
+			left: 800px;
+		}
+ 
+			/* Frame 5 */
+			#n31_26 {
+				width: 126px;
+				height: 80px;
+				overflow: visible;
+			}
+ 
+				/* HOME */
+				#n31_13 {
+					font-family: Comfortaa;
+					font-size: 20px;
+					font-weight: 400;
+					letter-spacing: 0.2px;
+					color: rgb(164, 164, 164);
+					vertical-align: middle;
+					text-align: center;
+					justify-content: center;
+					align-items: center;
+					line-height: 23.4375px;
+				}
+ 
+			/* Frame 6 */
+			#n31_27 {
+				width: 117px;
+				height: 80px;
+				overflow: visible;
+				left: 126px;
+			}
+ 
+				/* ABOUT */
+				#n29_1 {
+					font-family: Comfortaa;
+					font-size: 20px;
+					font-weight: 400;
+					letter-spacing: 0.2px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					text-align: center;
+					justify-content: center;
+					align-items: center;
+					line-height: 23.4375px;
+				}
+ 
+			/* Frame 7 */
+			#n31_28 {
+				width: 125px;
+				height: 80px;
+				overflow: visible;
+				left: 243px;
+			}
+ 
+				/* CONTACT */
+				#n31_11 {
+					font-family: Comfortaa;
+					font-size: 20px;
+					font-weight: 400;
+					letter-spacing: 0.2px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					text-align: center;
+					justify-content: center;
+					align-items: center;
+					line-height: 23.4375px;
+				}
+ 
+			/* Frame 8 */
+			#n31_29 {
+				width: 130px;
+				height: 80px;
+				overflow: visible;
+				left: 368px;
+			}
+ 
+				/* PORTFOLIO */
+				#n31_15 {
+					font-family: Comfortaa;
+					font-size: 20px;
+					font-weight: 400;
+					letter-spacing: 0.2px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					text-align: center;
+					justify-content: center;
+					align-items: center;
+					line-height: 23.4375px;
+				}
+ 
+			/* Frame 9 */
+			#n31_30 {
+				width: 132px;
+				height: 80px;
+				overflow: visible;
+				left: 498px;
+			}
+ 
+				/* DEMON REEL */
+				#n31_18 {
+					font-family: Comfortaa;
+					font-size: 20px;
+					font-weight: 400;
+					letter-spacing: 0.2px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					text-align: center;
+					justify-content: center;
+					align-items: center;
+					line-height: 23.4375px;
+				}
+ 
+	/* contentFrame */
+	#n24_95 {
+		width: 1440px;
+		height: 4298px;
+		overflow: visible;
+		background: rgb(255, 255, 255);
+		top: 80px;
+	}
+ 
+ 
+			/* Rectangle */
+			#n24_32 {
+				width: 1440px;
+				height: 900px;
+			}
+ 
+			/* PHOTOGRAPHY BY ALEX CHUNG */
+			#n24_34 {
+				font-family: Roboto;
+				font-size: 64px;
+				font-weight: 900;
+				letter-spacing: 1px;
+				color: rgb(0, 0, 0);
+				vertical-align: middle;
+				text-align: center;
+				justify-content: center;
+				width: 1003px;
+				align-items: center;
+				line-height: 75px;
+				height: 56.25px;
+				left: 218px;
+				top: 660.938px;
+			}
+ 
+ 
+			/* container01 */
+			#n24_130 {
+				width: 1320px;
+				height: 342px;
+				overflow: hidden;
+				left: 60px;
+				top: 1240px;
+			}
+ 
+				/* Rectangle 3 */
+				#n24_88 {
+					width: 346.063px;
+					top: 0.392212px;
+					height: 332.627px;
+				}
+ 
+				/* I am a freelance portrait and event photographer operating in the Brisbane area, Australia. Currently working on expanding his realm of experience beyond more casual gatherings to include formal events. */
+				#n24_89 {
+					font-family: Roboto;
+					font-size: 30px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 690.794px;
+					align-items: center;
+					line-height: 35.1562px;
+					height: 201.144px;
+					left: 588px;
+					top: 83.2322px;
+				}
+ 
+				/* Hi, Alex here... */
+				#n24_94 {
+					font-family: Roboto;
+					font-size: 30px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 262.095px;
+					align-items: center;
+					line-height: 35.1562px;
+					height: 73.2322px;
+					left: 592.032px;
+				}
+ 
+			/* Heading01 */
+			#n24_109 {
+				width: 1440px;
+				height: 100px;
+				overflow: hidden;
+				top: 1140px;
+			}
+ 
+				/* 01 */
+				#n24_108 {
+					font-family: Roboto;
+					font-size: 24px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 119px;
+					align-items: center;
+					line-height: 28.125px;
+					height: 40px;
+					left: 16px;
+					top: 30px;
+				}
+ 
+		/* content02 */
+		#n24_110 {
+			width: 1440px;
+			height: 595px;
+			overflow: visible;
+			top: 1822px;
+		}
+ 
+			/* container */
+			#n24_129 {
+				width: 1320px;
+				height: 513px;
+				overflow: hidden;
+				left: 60px;
+				top: 100px;
+			}
+ 
+ 
+					/* Car s */
+					#n24_113 {
+						font-family: Roboto;
+						font-size: 48px;
+						font-weight: 900;
+						letter-spacing: 1px;
+						color: rgb(0, 0, 0);
+						vertical-align: middle;
+						justify-content: flex-start;
+						width: 613px;
+						align-items: center;
+						line-height: 56.25px;
+						height: 150px;
+						left: -2px;
+					}
+ 
+					/* I'm currently practicing product photography. I look forward to taking on more projects in the future. */
+					#n24_114 {
+						font-family: Roboto;
+						font-size: 30px;
+						font-weight: 400;
+						letter-spacing: 1px;
+						color: rgb(0, 0, 0);
+						vertical-align: middle;
+						justify-content: flex-start;
+						width: 596px;
+						align-items: center;
+						line-height: 35.1562px;
+						height: 200px;
+						left: -2px;
+						top: 150px;
+					}
+ 
+				/* Rectangle */
+				#n24_115 {
+					left: 700px;
+					width: 620px;
+					height: 495px;
+				}
+ 
+			/* Heading02 */
+			#n24_118 {
+				width: 1440px;
+				height: 100px;
+				overflow: hidden;
+			}
+ 
+				/* 02 */
+				#n24_119 {
+					font-family: Roboto;
+					font-size: 24px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 28px;
+					align-items: center;
+					line-height: 28.125px;
+					height: 28px;
+					left: 16px;
+					top: 36px;
+				}
+ 
+		/* content03 */
+		#n24_196 {
+			width: 1440px;
+			height: 595px;
+			overflow: visible;
+			top: 2657px;
+		}
+ 
+			/* Heading03 */
+			#n24_197 {
+				width: 1440px;
+				height: 100px;
+				overflow: hidden;
+				background: rgb(255, 255, 255);
+			}
+ 
+				/* 03 */
+				#n24_198 {
+					font-family: Roboto;
+					font-size: 24px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 28px;
+					align-items: center;
+					line-height: 28.125px;
+					height: 28px;
+					left: 16px;
+					top: 36px;
+				}
+ 
+			/* container03 */
+			#n24_199 {
+				width: 1320px;
+				height: 495px;
+				overflow: hidden;
+				left: 60px;
+				top: 100px;
+			}
+ 
+ 
+					/* Car s */
+					#n24_201 {
+						font-family: Roboto;
+						font-size: 48px;
+						font-weight: 900;
+						letter-spacing: 1px;
+						color: rgb(0, 0, 0);
+						vertical-align: middle;
+						justify-content: flex-start;
+						width: 585px;
+						align-items: center;
+						line-height: 56.25px;
+						height: 150px;
+						left: 735px;
+					}
+ 
+					/* I'm currently practicing product photography. I look forward to taking on more projects in the future. */
+					#n24_202 {
+						font-family: Roboto;
+						font-size: 30px;
+						font-weight: 400;
+						letter-spacing: 1px;
+						color: rgb(0, 0, 0);
+						vertical-align: middle;
+						justify-content: flex-start;
+						width: 568.776px;
+						align-items: center;
+						line-height: 35.1562px;
+						height: 200px;
+						left: 735px;
+						top: 150px;
+					}
+ 
+				/* Rectangle */
+				#n24_203 {
+					width: 655px;
+					height: 495px;
+				}
+ 
+		/* content04 */
+		#n24_140 {
+			width: 1440px;
+			height: 806px;
+			overflow: visible;
+			top: 3492px;
+		}
+ 
+			/* container04 */
+			#n24_141 {
+				width: 1320px;
+				height: 659px;
+				overflow: visible;
+				left: 60px;
+				top: 100px;
+			}
+ 
+				/* CONTACT ME */
+				#n24_163 {
+					font-family: Roboto;
+					font-size: 48px;
+					font-weight: 900;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					align-items: center;
+					line-height: 56.25px;
+					right: 59.3729%;
+					bottom: 69.7%;
+				}
+ 
+				/* Email 1: Email 2: Instagram 1: Instagram 2: Phone: */
+				#n24_164 {
+					font-family: Roboto;
+					font-size: 24px;
+					font-weight: 400;
+					letter-spacing: 0.24px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 455px;
+					align-items: center;
+					line-height: 28.125px;
+					height: 260px;
+					top: 169px;
+				}
+ 
+				/* enquireNow */
+				#n24_179 {
+					width: 660px;
+					height: 567.532px;
+					overflow: hidden;
+					left: 659px;
+					top: 91px;
+				}
+ 
+					/* Enquire now */
+					#n24_166 {
+						font-family: Roboto;
+						font-size: 30px;
+						font-weight: 700;
+						letter-spacing: 0.3px;
+						color: rgb(0, 0, 0);
+						vertical-align: middle;
+						justify-content: flex-start;
+						width: 660px;
+						transform: translate(0px, -0.36px);
+						line-height: 36px;
+						height: 38.6819px;
+					}
+ 
+ 
+						/* Rectangle 2 */
+						#n24_168 {
+							background: rgb(255, 255, 255);
+							box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px inset;
+							width: 660px;
+							top: 78.6819px;
+							height: 60px;
+						}
+ 
+						/* Your name */
+						#n24_169 {
+							font-family: Roboto;
+							font-size: 24px;
+							font-weight: 400;
+							letter-spacing: 0.24px;
+							color: rgba(0, 0, 0, 0.8);
+							vertical-align: middle;
+							justify-content: flex-start;
+							width: 128px;
+							transform: translate(0px, 1.76px);
+							line-height: 24px;
+							height: 24px;
+							left: 19px;
+							top: 96.2451px;
+						}
+ 
+ 
+						/* Rectangle 2.2 */
+						#n24_171 {
+							background: rgb(255, 255, 255);
+							box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px inset;
+							width: 658.585px;
+							top: 178.682px;
+							height: 53.2209px;
+						}
+ 
+						/* Email address* */
+						#n24_172 {
+							font-family: Roboto;
+							font-size: 24px;
+							font-weight: 400;
+							letter-spacing: 0px;
+							color: rgba(0, 0, 0, 0.8);
+							vertical-align: middle;
+							justify-content: flex-start;
+							width: 162px;
+							transform: translate(0px, 1.76px);
+							line-height: 24px;
+							height: 24px;
+							left: 19px;
+							top: 193.42px;
+						}
+ 
+ 
+						/* Rectangle 2.3 */
+						#n24_173 {
+							background: rgb(255, 255, 255);
+							box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px inset;
+							left: 0.707397px;
+							width: 658.585px;
+							top: 271.903px;
+							height: 175.629px;
+						}
+ 
+						/* Enquiry */
+						#n24_174 {
+							font-family: Roboto;
+							font-size: 24px;
+							font-weight: 400;
+							letter-spacing: 0.24px;
+							color: rgba(0, 0, 0, 0.8);
+							vertical-align: middle;
+							justify-content: flex-start;
+							width: 81px;
+							transform: translate(0px, 1.76px);
+							line-height: 24px;
+							height: 24px;
+							left: 19.7074px;
+							top: 283.466px;
+						}
+ 
+ 
+						/* Rectangle 2 */
+						#n24_177 {
+							background: rgb(64, 78, 92);
+							border-radius: 6px;
+							left: 0.0186768px;
+							width: 659.963px;
+							top: 487.532px;
+							height: 80px;
+						}
+ 
+						/* Send Enquiry */
+						#n24_178 {
+							font-family: Roboto;
+							font-size: 30px;
+							font-weight: 700;
+							letter-spacing: 0.3px;
+							color: rgb(255, 255, 255);
+							vertical-align: middle;
+							text-align: center;
+							justify-content: center;
+							width: 386.529px;
+							align-items: center;
+							line-height: 35.1562px;
+							height: 48px;
+							left: 147px;
+							top: 503.466px;
+						}
+ 
+			/* Heading04 */
+			#n24_146 {
+				width: 1440px;
+				height: 100px;
+				overflow: hidden;
+			}
+ 
+				/* 04 */
+				#n24_147 {
+					font-family: Roboto;
+					font-size: 24px;
+					font-weight: 400;
+					letter-spacing: 1px;
+					color: rgb(0, 0, 0);
+					vertical-align: middle;
+					justify-content: flex-start;
+					width: 28px;
+					align-items: center;
+					line-height: 28.125px;
+					height: 28px;
+					left: 16px;
+					top: 36px;
+				}

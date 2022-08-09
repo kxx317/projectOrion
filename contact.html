@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Chung's Photography Portfolio">
+    <meta name="keywords"
+          content="Alex Chung, Photography, Portfolio, photography portfolio, brisbane photographer, personal portfolio">
+    <meta name="author" content="Ken Xie">
+    <title>Alex C. Photography | Contact</title>
+    <!--  <link rel="stylesheet" type="text/css" href="https://ui-kit.co/figma2html/dist/layout.css?v=2">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:900,400,700">
+    <!--	<link rel='stylesheet' href='https://ui-kit.co/figma2html/dist/codepen.css?v=1'>-->
+    <link rel="stylesheet" href="css/landing_copy.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          id="bootstrap-css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a8698697b0.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#form-submit').on('click', function () {
+                let senderName = $('#name').val().toString();
+                let date = new Date();
+                let strDate = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+                let senderEmail = $('#email').val().toString();
+                let subject = $('#msg_subject').val().toString();
+                let emailContent = $('#message').val().toString();
+                let location = "mailto:alexchung.chicken@gmail.com?subject=Photography enquiry from " + senderName +
+                    ": " +  subject + "&body=Name: " + senderName + "%0d%0aEmail: " + senderEmail + "%0d%0aDate: "
+                    + strDate + "%0D" + "%0D----------%0D" + emailContent.replace(/\n/g, "%0D").replace(/ /g, "%20");
+                alert(location);
+                window.open(location);
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<!--Navigation-->
+<nav class="shadow navbar navbar-expand-md navbar-light bg-light fixed-top" id="navD">
+    <a class="navbar-brand" href="landing.html">
+        <img src="img/logo.svg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapseNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="landing.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio_grid.html">PORTFOLIO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--End of navigation-->
+<!-- content04 -->
+<section class="section-padding section-dark" id="content04" style="padding-top: 10%">
+    <div class="container">
+        <div class="row offset" style="background-color: #EFEFF0">
+            <!-- Contact -->
+            <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                <h1 class="title">My contacts</h1>
+            </div>
+        </div>
+        <div class="row offset" style="background-color: #EFEFF0">
+            <!-- contact info -->
+            <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s" id="text04">
+                <div class="find-widget">
+                    Email1: <a href="#"></a>
+                </div>
+                <div class="find-widget">
+                    Email2: <a href="#"></a>
+                </div>
+                <div class="find-widget">
+                    Phone: <a href="#"></a>
+                </div>
+                <div class="find-widget">
+                    Instagram: <a href="#"></a>
+                </div>
+                <div class="find-widget">
+                    Free Time: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+                </div>
+            </div>
+            <!-- contact form -->
+            <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                <form class="shake" role="form" method="post" id="contactForm" name="contact-form"
+                      data-toggle="validator">
+                    <!-- Name -->
+                    <div class="form-group label-floating">
+                        <label class="control-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" name="name" required
+                               data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- email -->
+                    <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email"
+                               required data-error="Please enter your Email">
+
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Subject -->
+                    <div class="form-group label-floating">
+                        <label class="control-label">Subject</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required
+                               data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Message -->
+                    <div class="form-group label-floating">
+                        <label for="message" class="control-label">Message</label>
+                        <textarea class="form-control" rows="3" id="message" name="message" required
+                                  data-error="Write your message"></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <!-- Form Submit -->
+                    <div class="form-submit mt-5">
+                        <button class="btn btn-outline-dark" type="submit" id="form-submit" style="float: right"> Send Message
+                        </button>
+<!--                        <i class="material-icons mdi mdi-message-outline"></i>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <footer class="d-flex-column text-center">
+        <hr class="mt-0">
+        <!--Social buttons-->
+        <div class="text-center">
+            <h4>Social Media Links</h4>
+            <br>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Facebook">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Linkedin">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Twitter">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Youtube">
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--End of Social buttons-->
+        <hr class="mb-0">
+        <!--Copyright-->
+        <div class="py-3 text-center">
+            Copyright
+            <script>document.write(new Date().getFullYear())</script>
+            | All rights reserved
+        </div>
+        <!--End of Copyright-->
+    </footer>
+</section>
+<!-- ./Footer -->
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <!--  <link rel="stylesheet" type="text/css" href="https://ui-kit.co/figma2html/dist/layout.css?v=2">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:900,400,700">
+    <!--	<link rel='stylesheet' href='https://ui-kit.co/figma2html/dist/codepen.css?v=1'>-->
+    <link rel="stylesheet" href="css/landing_copy.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          id="bootstrap-css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a8698697b0.js" crossorigin="anonymous"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="js/profile.js"></script>
+</head>
+<body>
+
+<!--Navigation-->
+<nav class="shadow navbar navbar-expand-md navbar-light bg-light fixed-top" id="navD">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.svg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapseNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="landing.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio_grid.html">PORTFOLIO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--End of navigation-->
+
+<div class="row" style="padding-top: 10%">
+    <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+        <h1 class="title">Admin Login</h1>
+    </div>
+    <div class="col-md-10" style="margin: auto;">
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required=""
+               autofocus="">
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password"
+               required=""
+               autofocus="">
+        <button class="btn btn-lg btn-outline-primary btn-block button mr-auto" id="login">Login</button>
+    </div>
+</div>
+
+</body>
+</html>

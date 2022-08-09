@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Chung's Photography Portfolio">
+    <meta name="keywords"
+          content="Alex Chung, Photography, Portfolio, photography portfolio, brisbane photographer, personal portfolio">
+    <meta name="author" content="Ken Xie">
+    <title>Alex C. Photography | Portfolio</title>
+    <!--  <link rel="stylesheet" type="text/css" href="https://ui-kit.co/figma2html/dist/layout.css?v=2">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:400">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:900,400,700">
+    <!--	<link rel='stylesheet' href='https://ui-kit.co/figma2html/dist/codepen.css?v=1'>-->
+    <link rel="stylesheet" href="css/landing_copy.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          id="bootstrap-css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a8698697b0.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/management.js"></script>
+</head>
+
+<body>
+
+
+<!--Navigation-->
+<nav class="shadow navbar navbar-expand-md navbar-light bg-light fixed-top" id="navD">
+    <a class="navbar-brand" href="landing.html">
+        <img src="img/logo.svg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapseNav">
+        <ul class="navbar-nav ml-auto">
+            <!-- Button to Open the Modal -->
+            <li class="nav-item">
+                <a class="nav-link" herf="#" data-toggle="modal" data-target="#managementModal">IMG upload</a>
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="landing.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="portfolio_grid.html">Portfolio Manage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">Account</a>
+            </li>
+<!--            <button id="logout" class="btn btn-outline-dark">Log out</button>-->
+            <a class="nav-link btn btn-outline-dark" href="landing.html">Log out</a>
+        </ul>
+    </div>
+</nav>
+<!--End of navigation-->
+
+<!-- The Modal / Add picture -->
+<div class="modal fade" id="managementModal">
+    <div id="upload-dialog" class="modal-dialog" style="padding: 2%; margin: 2% !important;">
+        <div id="upload-content" class="modal-content">
+            <!-- Header -->
+            <div id="upload-header" class="modal-header">
+                <h4 class="modal-title">Add Picture</h4>
+                <button type="button" class="submit" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Body -->
+            <div id="upload-body" class="modal-body">
+                <div class="container">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <!-- Standard Form -->
+                            <div class="col-md-6 offset-md-3 mt-5">
+                                <img src='img/logo.svg'>
+                                <br>
+                                <h4>Image upload</h4>
+                                <form accept-charset="UTF-8" action="#" method="POST">
+                                    <!--                                title will be stored as the alt of the image-->
+                                    <div class="form-group">
+                                        <label for="imgTitle">Image Title</label>
+                                        <input type="text" name="imgTitle" class="form-control" id="imgTitle"
+                                               placeholder="Enter the title of the image" required="required">
+                                    </div>
+                                    <!--                                Date of the image-->
+                                    <div class="form-group">
+                                        <label for="imgDate" required="required">Date</label>
+                                        <input type="date" name="imgDate" class="form-control" id="imgDate">
+                                    </div>
+                                    <!--                                    in development-->
+                                    <div class="form-group">
+                                        <label for="imgType">Image type</label>
+                                        <select class="form-control" id="imgType" name="imgType" required="">
+                                            <option>Portrait</option>
+                                            <option>Landscape</option>
+                                            <option>Car & Product</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div class="form-group mt-3">
+                                        <div class="custom-file">
+                                            <label class="custom-file-label" id="custom-file-label" for="imgUpload">Upload
+                                                image...</label>
+                                            <input type="file" class="custom-file-input" name="file" id="imgUpload"
+                                                   accept=".jpg, .png, .jpeg">
+                                            <div class="invalid-feedback">File invalid</div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button name="upload" class="btn btn-primary" id="imgUploadBtn"
+                            style="margin-right: 2%">Upload files
+                    </button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end of modal-->
+
+
+<!--Portfolio-->
+<section id="portfolio" style="padding-top: 10%">
+    <h1 id="title">Portfolio</h1>
+    <div class="row offset">
+        <!--            View select-->
+        <div class="col-md-3">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="toolbarText">
+                        Grid View
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--            End of view select-->
+        <!--            sort select-->
+        <div class="col-md-3">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">Sort by:</li>
+                <li class="list-inline-item">
+                    <a href="#" id="newest" class="sortBy">
+                        Newest
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" id="oldest" class="sortBy">
+                        Oldest
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <!--            End of sort select-->
+        <!--            search bar-->
+        <div class="col-md-6" style="margin: 0; padding: 0;">
+            <div class="col-md-6" style="float: right" id="searchBar">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" id="searchInput">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary" id="searchBtn" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--            end of search bar-->
+    </div>
+    </div>
+    <br>
+    <!--img reference-->
+    <div id="gallery" class="container-fluid">
+        <img src="portfolio_m/01_m.jpeg" data-date="05-05-2005" class="card img-responsive">
+        <img src="portfolio_m/02_m.jpeg" data-date="11-02-2011" class="card img-responsive">
+        <img src="portfolio_m/03_m.jpeg" data-date="27-09-2013" class="card img-responsive">
+        <img src="portfolio_m/04_m.jpeg" data-date="12-11-2013" class="card img-responsive">
+        <img src="portfolio_m/05_m.jpeg" data-date="18-10-2033" class="card img-responsive">
+        <img src="portfolio_m/06_m.jpeg" data-date="14-11-2333" class="card img-responsive">
+        <img src="portfolio_m/07_m.jpeg" data-date="12-10-2202" class="card img-responsive">
+        <img src="portfolio_m/08_m.jpeg" data-date="02-11-2013" class="card img-responsive">
+        <img src="portfolio_m/09_m.jpeg" data-date="12-11-1999" class="card img-responsive">
+        <img src="portfolio_m/010_m.jpeg" data-date="11-02-1856" class="card img-responsive">
+        <img src="portfolio_m/011_m.jpeg" data-date="12-11-2013" class="card img-responsive">
+        <img src="portfolio_m/012_m.jpeg" data-date="31-01-0213" class="card img-responsive">
+        <img src="portfolio_m/013_m.jpeg" data-date="12-11-2113" class="card img-responsive">
+        <img src="portfolio_m/014_m.jpeg" data-date="13-11-2013" class="card img-responsive">
+        <img src="portfolio_m/015_m.jpeg" data-date="12-11-0066" class="card img-responsive">
+        <img src="portfolio_m/016_m.jpeg" data-date="12-11-9999" class="card img-responsive">
+        <img src="portfolio_m/017_m.jpeg" data-date="12-11-2020" class="card img-responsive">
+        <img src="portfolio_m/018_m.jpeg" data-date="12-11-2021" class="card img-responsive">
+        <img src="portfolio_m/019_m.jpeg" data-date="11-11-2000" class="card img-responsive">
+        <img src="portfolio_m/020_m.jpeg" data-date="01-07-2003" class="card img-responsive">
+    </div>
+
+    <div id="myModal" class="modal fade" tabindex='-1' role="dialog">
+        <div id="img-dialog" class="modal-dialog">
+            <!-- Modal content-->
+            <div id="img-content" class="modal-content">
+                <div id="img-body" class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <footer class="d-flex-column text-center">
+        <hr class="mt-0">
+        <!--Social buttons-->
+        <div class="text-center">
+            <h4>Social Media Links</h4>
+            <br>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Facebook">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Linkedin">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Twitter">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="sbtn btn-large mx-1" title="Youtube">
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--End of Social buttons-->
+        <hr class="mb-0">
+        <!--Copyright-->
+        <div class="py-3 text-center">
+            Copyright
+            <script>document.write(new Date().getFullYear())</script>
+            | All rights reserved
+        </div>
+        <!--End of Copyright-->
+    </footer>
+</section>
+<!-- ./Footer -->
+</body>
+</html>
